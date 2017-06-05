@@ -1,0 +1,37 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "Authenticate",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AuthServer"
+    },
+    {
+      "name": "MapServer"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "signin",
+      "intent": "AuthServer",
+      "entities": []
+    },
+    {
+      "text": "map server",
+      "intent": "MapServer",
+      "entities": []
+    }
+  ]
+}
